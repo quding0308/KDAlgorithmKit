@@ -1,0 +1,22 @@
+{
+  "name": "KDAlgorithmKit",
+  "version": "0.1.0",
+  "summary": "A short description of KDAlgorithmKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/quding/KDAlgorithmKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "quding": "ding_qu@kingdee.com"
+  },
+  "source": {
+    "git": "https://github.com/quding/KDAlgorithmKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KDAlgorithmKit/Classes/**/*"
+}

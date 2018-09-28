@@ -1,0 +1,16 @@
+PODS:
+  - KDAlgorithmKit (0.1.0)
+
+DEPENDENCIES:
+  - KDAlgorithmKit (from `../`)
+
+EXTERNAL SOURCES:
+  KDAlgorithmKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KDAlgorithmKit: 5e2c644b8d5621927a6d967d3d79f3f108453cb4
+
+PODFILE CHECKSUM: 84eea4ee6fe7c392074fbee1a4cc873aaf06c920
+
+COCOAPODS: 1.5.3

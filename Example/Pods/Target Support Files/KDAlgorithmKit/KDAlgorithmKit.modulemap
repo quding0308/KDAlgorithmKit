@@ -1,0 +1,6 @@
+framework module KDAlgorithmKit {
+  umbrella header "KDAlgorithmKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KDAlgorithmKit_Example' do
+  pod 'KDAlgorithmKit', :path => '../'
+
+  target 'KDAlgorithmKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
