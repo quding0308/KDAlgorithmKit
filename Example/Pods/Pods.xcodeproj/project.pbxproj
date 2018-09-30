@@ -11,6 +11,11 @@
 		153FCCBCC262609E97F415BB8D687A1D /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C153D3521E77972F7D4B1EA44E4028 /* Heap.swift */; };
 		18F94DCA34CEE6CF01A89CF47A376DAF /* SortAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74538A6E46BBCE5B1886571697791ACC /* SortAlgorithm.swift */; };
 		1C14DD7199FA95E18DB861622575DEA5 /* Pods-KDAlgorithmKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 637517D28F8A60FCCE7EBBA1FF0B1A35 /* Pods-KDAlgorithmKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E48C8B7215F656500062FFE /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48C8B6215F656500062FFE /* PriorityQueue.swift */; };
+		1E48C8B9215F671800062FFE /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48C8B8215F671800062FFE /* BinaryHeap.swift */; };
+		1E48C8BB215F6CF100062FFE /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48C8BA215F6CF100062FFE /* BinaryTree.swift */; };
+		1E48C8BD215F7AC500062FFE /* CompleteBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48C8BC215F7AC500062FFE /* CompleteBinaryTree.swift */; };
+		1EA021642160A48600091219 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA021632160A48600091219 /* LinkedList.swift */; };
 		22605C1CD640D41201B48D0410C5060C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82EEEEEE0307DDA0BB717711E0161C9 /* Stack.swift */; };
 		29CF0D895B5550044531BF50744584A5 /* Pods-KDAlgorithmKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9C825B1990B5CC13689800BEACFA01 /* Pods-KDAlgorithmKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AE841C640DF24083FC437D8AF7B73BB /* KDAlgorithmKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA87E2959F574B4642EF93CA3528FF0F /* KDAlgorithmKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,13 +46,18 @@
 
 /* Begin PBXFileReference section */
 		0220541C5F8FAC04673806F0A27C0F56 /* Pods-KDAlgorithmKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0776EEE6FC24EA122F112EB0EE5F8AA3 /* Pods_KDAlgorithmKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KDAlgorithmKit_Example.framework; path = "Pods-KDAlgorithmKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0776EEE6FC24EA122F112EB0EE5F8AA3 /* Pods_KDAlgorithmKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDAlgorithmKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9C825B1990B5CC13689800BEACFA01 /* Pods-KDAlgorithmKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDAlgorithmKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		10A4D036B728E4267F77A7001877D126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		166FD2EEEDB6F4897F747EE6FA6F14ED /* KDAlgorithmKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDAlgorithmKit-prefix.pch"; sourceTree = "<group>"; };
 		1A0BD813241C5C4C6A596EDFC70782F9 /* KDAlgorithmKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDAlgorithmKit-dummy.m"; sourceTree = "<group>"; };
+		1E48C8B6215F656500062FFE /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		1E48C8B8215F671800062FFE /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
+		1E48C8BA215F6CF100062FFE /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		1E48C8BC215F7AC500062FFE /* CompleteBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteBinaryTree.swift; sourceTree = "<group>"; };
+		1EA021632160A48600091219 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		220B959BE7948909B42A7C39958580FA /* Pods-KDAlgorithmKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Example-resources.sh"; sourceTree = "<group>"; };
-		28D0A3B2868D1C7C23E51E715A0FE05F /* KDAlgorithmKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KDAlgorithmKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28D0A3B2868D1C7C23E51E715A0FE05F /* KDAlgorithmKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KDAlgorithmKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2EF50CF96BFE42A04C8C900BBE101DC6 /* KDAlgorithmKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDAlgorithmKit.xcconfig; sourceTree = "<group>"; };
 		32F9D05193077F7A8EF02F99A14377C1 /* Pods-KDAlgorithmKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4519E3FCEF065EC63CAB9AE82D2EBD7D /* Pods-KDAlgorithmKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDAlgorithmKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -57,7 +67,7 @@
 		54836C64325BF7F6749B6D2AAB6DE446 /* Pods-KDAlgorithmKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5E779E9D9621568316D5009B41BECC8A /* Pods-KDAlgorithmKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDAlgorithmKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		5FB77597BCC988330856D2E57D59FE6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5FB77597BCC988330856D2E57D59FE6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		637517D28F8A60FCCE7EBBA1FF0B1A35 /* Pods-KDAlgorithmKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDAlgorithmKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6C7C58D853CCA9018B1F9C100A7E60DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74538A6E46BBCE5B1886571697791ACC /* SortAlgorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SortAlgorithm.swift; sourceTree = "<group>"; };
@@ -65,16 +75,16 @@
 		87C811CC48694974619ABA6F5ED30B56 /* Pods-KDAlgorithmKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8EDC7506368BB1AE244BEBCB9F3E5952 /* KDAlgorithmKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDAlgorithmKit.modulemap; sourceTree = "<group>"; };
 		91F52FE22BAD8071D3B1ECACA1DA532C /* Pods-KDAlgorithmKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95D640F3D897DBE4C027DD6A1AA714F8 /* Pods_KDAlgorithmKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KDAlgorithmKit_Tests.framework; path = "Pods-KDAlgorithmKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D640F3D897DBE4C027DD6A1AA714F8 /* Pods_KDAlgorithmKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDAlgorithmKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA873C8D0B62EA485C9C7C745DF80A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20BB127493A8BB5B9E1662E9ADEDC9B /* Pods-KDAlgorithmKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDAlgorithmKit_Example-dummy.m"; sourceTree = "<group>"; };
 		AA24F6B1FDAD03EA2F97B072D4BE7AB0 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		AE7788AF04F4401C4377E9E1CC6957DC /* Pods-KDAlgorithmKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6A6396C5F424D6CB2B63F052CAF747E /* Pods-KDAlgorithmKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		B82EEEEEE0307DDA0BB717711E0161C9 /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
-		C95792E6D50258AAC28C4766315708A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E4793AFF8A45428B94A700655C68513F /* KDAlgorithmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KDAlgorithmKit.framework; path = KDAlgorithmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95792E6D50258AAC28C4766315708A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4793AFF8A45428B94A700655C68513F /* KDAlgorithmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDAlgorithmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA87E2959F574B4642EF93CA3528FF0F /* KDAlgorithmKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDAlgorithmKit-umbrella.h"; sourceTree = "<group>"; };
 		EBA93897CD2F60035B2778E6E785187B /* Pods-KDAlgorithmKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDAlgorithmKit_Example.modulemap"; sourceTree = "<group>"; };
 		EC3F10C18C2D6A57AC5C33B5EC50F21D /* Pods-KDAlgorithmKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDAlgorithmKit_Tests.modulemap"; sourceTree = "<group>"; };
@@ -162,6 +172,11 @@
 				50C153D3521E77972F7D4B1EA44E4028 /* Heap.swift */,
 				AA24F6B1FDAD03EA2F97B072D4BE7AB0 /* Queue.swift */,
 				B82EEEEEE0307DDA0BB717711E0161C9 /* Stack.swift */,
+				1E48C8B6215F656500062FFE /* PriorityQueue.swift */,
+				1E48C8B8215F671800062FFE /* BinaryHeap.swift */,
+				1E48C8BA215F6CF100062FFE /* BinaryTree.swift */,
+				1E48C8BC215F7AC500062FFE /* CompleteBinaryTree.swift */,
+				1EA021632160A48600091219 /* LinkedList.swift */,
 			);
 			name = DataStructure;
 			path = KDAlgorithmKit/Classes/DataStructure;
@@ -259,7 +274,6 @@
 			children = (
 				74538A6E46BBCE5B1886571697791ACC /* SortAlgorithm.swift */,
 			);
-			name = sort;
 			path = sort;
 			sourceTree = "<group>";
 		};
@@ -422,11 +436,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E48C8BB215F6CF100062FFE /* BinaryTree.swift in Sources */,
 				153FCCBCC262609E97F415BB8D687A1D /* Heap.swift in Sources */,
+				1EA021642160A48600091219 /* LinkedList.swift in Sources */,
+				1E48C8BD215F7AC500062FFE /* CompleteBinaryTree.swift in Sources */,
 				D55D127708C85D2B3F98DDCC9153F209 /* KDAlgorithmKit-dummy.m in Sources */,
 				ACE639934F7DD54F84A968F552EFD7C7 /* Queue.swift in Sources */,
+				1E48C8B9215F671800062FFE /* BinaryHeap.swift in Sources */,
 				18F94DCA34CEE6CF01A89CF47A376DAF /* SortAlgorithm.swift in Sources */,
 				22605C1CD640D41201B48D0410C5060C /* Stack.swift in Sources */,
+				1E48C8B7215F656500062FFE /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,8 +587,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -601,8 +619,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
