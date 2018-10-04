@@ -56,12 +56,13 @@ public class LRU<Element> {
     }
     
     private func removeNode(_ node: Node) {
-        
+        node.pre?.next = node.next
+        node.next?.pre = node.pre
     }
     
-    private func removeTailNode() -> Node? {
-        
-        return nil
+    private func removeTailNode() {
+        tail = tail?.pre
+        tail?.pre = nil
     }
     
     // MARK: public
@@ -73,7 +74,7 @@ public class LRU<Element> {
         insertNodeAtHead(node)
         
         if dict.count > countLimit {
-            _ = removeTailNode()
+            removeTailNode()
         }
     }
     
