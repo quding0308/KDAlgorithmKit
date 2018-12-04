@@ -19,6 +19,8 @@
 		1EA0217C2164664500091219 /* ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0217B2164664500091219 /* ST.swift */; };
 		1EB8E3D22164981A009B152D /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8E3D12164981A009B152D /* DoublyLinkedList.swift */; };
 		1EB8E3D42164BAA3009B152D /* LRU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8E3D32164BAA3009B152D /* LRU.swift */; };
+		1EF90E9121B4F91F00FD897F /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF90E9021B4F91F00FD897F /* Graph.swift */; };
+		1EF90E9321B4F9E200FD897F /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF90E9221B4F9E200FD897F /* LinkedList.swift */; };
 		22605C1CD640D41201B48D0410C5060C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82EEEEEE0307DDA0BB717711E0161C9 /* Stack.swift */; };
 		29CF0D895B5550044531BF50744584A5 /* Pods-KDAlgorithmKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9C825B1990B5CC13689800BEACFA01 /* Pods-KDAlgorithmKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AE841C640DF24083FC437D8AF7B73BB /* KDAlgorithmKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA87E2959F574B4642EF93CA3528FF0F /* KDAlgorithmKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,6 +64,8 @@
 		1EA0217B2164664500091219 /* ST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ST.swift; sourceTree = "<group>"; };
 		1EB8E3D12164981A009B152D /* DoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedList.swift; sourceTree = "<group>"; };
 		1EB8E3D32164BAA3009B152D /* LRU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRU.swift; sourceTree = "<group>"; };
+		1EF90E9021B4F91F00FD897F /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		1EF90E9221B4F9E200FD897F /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		220B959BE7948909B42A7C39958580FA /* Pods-KDAlgorithmKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Example-resources.sh"; sourceTree = "<group>"; };
 		28D0A3B2868D1C7C23E51E715A0FE05F /* KDAlgorithmKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KDAlgorithmKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2EF50CF96BFE42A04C8C900BBE101DC6 /* KDAlgorithmKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDAlgorithmKit.xcconfig; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 				1EA0217B2164664500091219 /* ST.swift */,
 				1EB8E3D12164981A009B152D /* DoublyLinkedList.swift */,
 				1EB8E3D32164BAA3009B152D /* LRU.swift */,
+				1EF90E9021B4F91F00FD897F /* Graph.swift */,
+				1EF90E9221B4F9E200FD897F /* LinkedList.swift */,
 			);
 			name = DataStructure;
 			path = KDAlgorithmKit/Classes/DataStructure;
@@ -447,6 +453,7 @@
 			files = (
 				1E48C8BB215F6CF100062FFE /* BinaryTree.swift in Sources */,
 				153FCCBCC262609E97F415BB8D687A1D /* Heap.swift in Sources */,
+				1EF90E9121B4F91F00FD897F /* Graph.swift in Sources */,
 				1EA021642160A48600091219 /* SinglyLinkedList.swift in Sources */,
 				1EA0217C2164664500091219 /* ST.swift in Sources */,
 				1E48C8BD215F7AC500062FFE /* CompleteBinaryTree.swift in Sources */,
@@ -456,6 +463,7 @@
 				1E48C8B9215F671800062FFE /* BinaryHeap.swift in Sources */,
 				1EB8E3D42164BAA3009B152D /* LRU.swift in Sources */,
 				18F94DCA34CEE6CF01A89CF47A376DAF /* SortAlgorithm.swift in Sources */,
+				1EF90E9321B4F9E200FD897F /* LinkedList.swift in Sources */,
 				22605C1CD640D41201B48D0410C5060C /* Stack.swift in Sources */,
 				1E48C8B7215F656500062FFE /* PriorityQueue.swift in Sources */,
 			);

@@ -22,6 +22,7 @@ class ViewController: UIViewController {
 //        SortAlgorithm.insertSort(arr: &arr)
         SortAlgorithm.selectSort(arr: &arr)
         
+        testGraph()
         
         print("")
     }
@@ -32,6 +33,26 @@ class ViewController: UIViewController {
     }
     
 
+ 
+    func testGraph() {
+        var graph = Graph(v: 8)
+        
+        graph.addEdge(s: 1, t: 2)
+        graph.addEdge(s: 2, t: 3)
+        graph.addEdge(s: 4, t: 5)
+        graph.addEdge(s: 5, t: 6)
+        graph.addEdge(s: 7, t: 8)
+        
+        graph.addEdge(s: 1, t: 4)
+        graph.addEdge(s: 2, t: 5)
+        graph.addEdge(s: 3, t: 6)
+        
+        graph.addEdge(s: 5, t: 7)
+        graph.addEdge(s: 6, t: 8)
+        
+        graph.dfs(s: 0, t: 7)
+    }
+    
 }
 
 extension SortAlgorithm {
