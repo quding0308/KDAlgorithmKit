@@ -50,9 +50,12 @@ class ViewController: UIViewController {
         graph.addEdge(s: 5, t: 7)
         graph.addEdge(s: 6, t: 8)
         
+        print("bfs 最短路径")
+        graph.bfs(s: 0, t: 7)
+        
+        print("dfs")
         graph.dfs(s: 0, t: 7)
     }
-    
 }
 
 extension SortAlgorithm {

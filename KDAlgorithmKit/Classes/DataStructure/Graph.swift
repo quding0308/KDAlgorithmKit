@@ -36,6 +36,36 @@ public struct Graph {
 }
 
 extension Graph {
+    mutating public func bfs(s: Int, t: Int) {
+        // 用于记录某个顶点是否访问过
+        var visited = [Bool](repeating: false, count: v)
+        // 用于输出走过路径  值 存储上一个顶点的坐标
+        var prev = [Int](repeating: -1, count: v)
+        // 待遍历的顶点  queue 先入先出的特性 会优先 遍历最近的顶点
+        var queue = Queue<Int>()
+        
+        queue.enqueue(s)
+        while queue.count > 0 {
+            if let w = queue.dequeue() {
+                for index in 0..<adj[w].count { // 遍历相邻的node
+                    if let node = adj[w].query(index: index), let value = node.value {
+                        if !visited[value] {
+                            prev[value] = w
+                            if value == t {
+                                printPath(prev: prev, s: s, t: t)
+                            }
+                            
+                            visited[value] = true
+                            queue.enqueue(value)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+extension Graph {
     mutating public func dfs(s: Int, t: Int) {
         var isFound = false
         var visited = [Bool](repeating: false, count: v)
