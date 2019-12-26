@@ -7,329 +7,340 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E58B397A5A7B23D37728357345EBA2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		153FCCBCC262609E97F415BB8D687A1D /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C153D3521E77972F7D4B1EA44E4028 /* Heap.swift */; };
-		18F94DCA34CEE6CF01A89CF47A376DAF /* SortAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74538A6E46BBCE5B1886571697791ACC /* SortAlgorithm.swift */; };
-		1C14DD7199FA95E18DB861622575DEA5 /* Pods-KDAlgorithmKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 637517D28F8A60FCCE7EBBA1FF0B1A35 /* Pods-KDAlgorithmKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E48C8B7215F656500062FFE /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48C8B6215F656500062FFE /* PriorityQueue.swift */; };
-		1E48C8B9215F671800062FFE /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48C8B8215F671800062FFE /* BinaryHeap.swift */; };
-		1E48C8BB215F6CF100062FFE /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48C8BA215F6CF100062FFE /* BinaryTree.swift */; };
-		1E48C8BD215F7AC500062FFE /* CompleteBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48C8BC215F7AC500062FFE /* CompleteBinaryTree.swift */; };
-		1EA021642160A48600091219 /* SinglyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA021632160A48600091219 /* SinglyLinkedList.swift */; };
-		1EA0217C2164664500091219 /* ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA0217B2164664500091219 /* ST.swift */; };
-		1EB8E3D22164981A009B152D /* DoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8E3D12164981A009B152D /* DoublyLinkedList.swift */; };
-		1EB8E3D42164BAA3009B152D /* LRU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB8E3D32164BAA3009B152D /* LRU.swift */; };
-		1EF90E9121B4F91F00FD897F /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF90E9021B4F91F00FD897F /* Graph.swift */; };
-		1EF90E9321B4F9E200FD897F /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF90E9221B4F9E200FD897F /* LinkedList.swift */; };
-		22605C1CD640D41201B48D0410C5060C /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82EEEEEE0307DDA0BB717711E0161C9 /* Stack.swift */; };
-		29CF0D895B5550044531BF50744584A5 /* Pods-KDAlgorithmKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9C825B1990B5CC13689800BEACFA01 /* Pods-KDAlgorithmKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AE841C640DF24083FC437D8AF7B73BB /* KDAlgorithmKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA87E2959F574B4642EF93CA3528FF0F /* KDAlgorithmKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		934BD3E11DBBD4B3F04589FDC6B4E457 /* Pods-KDAlgorithmKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E779E9D9621568316D5009B41BECC8A /* Pods-KDAlgorithmKit_Tests-dummy.m */; };
-		ACE639934F7DD54F84A968F552EFD7C7 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA24F6B1FDAD03EA2F97B072D4BE7AB0 /* Queue.swift */; };
-		AE565FD44BC8108BE59714B0718E9009 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D55D127708C85D2B3F98DDCC9153F209 /* KDAlgorithmKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BD813241C5C4C6A596EDFC70782F9 /* KDAlgorithmKit-dummy.m */; };
-		E8ABD12A607A9AA88FF4D29B63DDC304 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FC14E2800F4AD7B8FC60007017A9F687 /* Pods-KDAlgorithmKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A20BB127493A8BB5B9E1662E9ADEDC9B /* Pods-KDAlgorithmKit_Example-dummy.m */; };
+		03AFD069D154977EF3AD0B6EB2E675A3 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAB3F08E51DF6B000450FAA19F7CEB6 /* LinkedList.swift */; };
+		2E18A059064B4CE37B3260AFA356FF63 /* Pods-KDAlgorithmKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE72421756D9E36AD455A7457CF2D6C1 /* Pods-KDAlgorithmKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F64E9404D7D9B48032589D627195EBA /* CompleteBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F3B59290D21C5CCF14B9004190461 /* CompleteBinaryTree.swift */; };
+		312D4E0A0CB7A5E133013069513B8B39 /* ST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ABF08B71D77E69903E781DE0D363D8 /* ST.swift */; };
+		3A1A6E4C3E935E9911D0F0A371E45D89 /* LRU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6339578585F380A00B488CAEF66716D3 /* LRU.swift */; };
+		65431DC2A3B43337E66058CBFD43A1C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		69733D4BD510C02B0A62845EA5C16002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		70EDCEC599D4BECAEAC970232BA4696B /* Pods-KDAlgorithmKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D143ADA7036DDF366C3F1625DEF26134 /* Pods-KDAlgorithmKit_Example-dummy.m */; };
+		7130AEB6A47D6CE461C27BE4D66370DA /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0BDAA54A24ECCB9B80AA7A70776DF2 /* PriorityQueue.swift */; };
+		78DDC3057B1E8D3728DCD70D265E9DCB /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAF04C6302526BEC3616345F333A6A /* Heap.swift */; };
+		9C416CCE3362D6FB926141503FED2D50 /* SortAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D17EDA397BF7A1C157B1C647DBC4A /* SortAlgorithm.swift */; };
+		A409B36C353827B2944AB08DD0640D0B /* KDAlgorithmKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE00AC472C772C8986453DDEC3936F54 /* KDAlgorithmKit-dummy.m */; };
+		ADD4A077F09AD0C92463A4A3264741A5 /* KDAlgorithmKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E38734514409DBE604A715414B3C5B /* KDAlgorithmKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF90DBAD3D3D7D46C98B9AAE8135192E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C6C2E075FD9DEACD3EDBD9FE3940170E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA61265E0EDBF15446CB67030348511 /* Queue.swift */; };
+		D061E21AFED194D809CC84E93E5C54DA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8E8F706DBB0260C56AD90BCC6129A /* Stack.swift */; };
+		D3C94980259E8AD601CC782CED8B434C /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B6E3ED0CC61E3853704E10CDE713C4 /* BinaryHeap.swift */; };
+		DAA55814ED2F311840C00FB61C79F79B /* Pods-KDAlgorithmKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9C10BAAF52336A757B5F465EF2AE86 /* Pods-KDAlgorithmKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E636DA2ECC4DD1C94FF815B54718026E /* SinglyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD836CA9F4398CAED227C80B1751DA /* SinglyLinkedList.swift */; };
+		E6E463AB87156F50484ACB7BFCE043AD /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B948D8374FDAD9E04233DEF352EEA0F5 /* Graph.swift */; };
+		EB3B4DDC34567F7FC54BB22FADD686A9 /* Pods-KDAlgorithmKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5732AC88641A1C1A475AAEB07C16DDB7 /* Pods-KDAlgorithmKit_Tests-dummy.m */; };
+		F2042858C2AE98247059978EE09E4586 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0939222F6EC99D3D120F2BA4D07DD733 /* BinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83BDD05F7B95C1E7A602189F07E9D9BD /* PBXContainerItemProxy */ = {
+		8A5558E7A5B00F0B7C5A5BB844D0DBCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 19005ECDB488DBA2CCF81E46366C93F3;
-			remoteInfo = KDAlgorithmKit;
-		};
-		B64E93671EAD89D7E897C7CA812F9B58 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 53A58AA90FC4B855CC5DE6220399C787;
+			remoteGlobalIDString = 7F3743DB57534755DF945034159036F6;
 			remoteInfo = "Pods-KDAlgorithmKit_Example";
+		};
+		AC2DBD41C0324EA5F2B2C75EE28B6400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B7F07E7AB35CBA29E2D8C694ABE4555;
+			remoteInfo = KDAlgorithmKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0220541C5F8FAC04673806F0A27C0F56 /* Pods-KDAlgorithmKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0776EEE6FC24EA122F112EB0EE5F8AA3 /* Pods_KDAlgorithmKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDAlgorithmKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C9C825B1990B5CC13689800BEACFA01 /* Pods-KDAlgorithmKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDAlgorithmKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		10A4D036B728E4267F77A7001877D126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		166FD2EEEDB6F4897F747EE6FA6F14ED /* KDAlgorithmKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDAlgorithmKit-prefix.pch"; sourceTree = "<group>"; };
-		1A0BD813241C5C4C6A596EDFC70782F9 /* KDAlgorithmKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDAlgorithmKit-dummy.m"; sourceTree = "<group>"; };
-		1E48C8B6215F656500062FFE /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
-		1E48C8B8215F671800062FFE /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
-		1E48C8BA215F6CF100062FFE /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
-		1E48C8BC215F7AC500062FFE /* CompleteBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteBinaryTree.swift; sourceTree = "<group>"; };
-		1EA021632160A48600091219 /* SinglyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglyLinkedList.swift; sourceTree = "<group>"; };
-		1EA0217B2164664500091219 /* ST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ST.swift; sourceTree = "<group>"; };
-		1EB8E3D12164981A009B152D /* DoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublyLinkedList.swift; sourceTree = "<group>"; };
-		1EB8E3D32164BAA3009B152D /* LRU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRU.swift; sourceTree = "<group>"; };
-		1EF90E9021B4F91F00FD897F /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
-		1EF90E9221B4F9E200FD897F /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
-		220B959BE7948909B42A7C39958580FA /* Pods-KDAlgorithmKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Example-resources.sh"; sourceTree = "<group>"; };
-		28D0A3B2868D1C7C23E51E715A0FE05F /* KDAlgorithmKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KDAlgorithmKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2EF50CF96BFE42A04C8C900BBE101DC6 /* KDAlgorithmKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDAlgorithmKit.xcconfig; sourceTree = "<group>"; };
-		32F9D05193077F7A8EF02F99A14377C1 /* Pods-KDAlgorithmKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4519E3FCEF065EC63CAB9AE82D2EBD7D /* Pods-KDAlgorithmKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDAlgorithmKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		476DDF7C78F5701620983D357812C2E8 /* Pods-KDAlgorithmKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDAlgorithmKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		50C153D3521E77972F7D4B1EA44E4028 /* Heap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
-		5121EE618315D6FCE5A952CC376AA6A4 /* Pods-KDAlgorithmKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDAlgorithmKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		54836C64325BF7F6749B6D2AAB6DE446 /* Pods-KDAlgorithmKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5E779E9D9621568316D5009B41BECC8A /* Pods-KDAlgorithmKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDAlgorithmKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		5FB77597BCC988330856D2E57D59FE6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		637517D28F8A60FCCE7EBBA1FF0B1A35 /* Pods-KDAlgorithmKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDAlgorithmKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6C7C58D853CCA9018B1F9C100A7E60DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74538A6E46BBCE5B1886571697791ACC /* SortAlgorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SortAlgorithm.swift; sourceTree = "<group>"; };
-		85A7FC84112127D40B5257623F9D8F13 /* Pods-KDAlgorithmKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDAlgorithmKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		87C811CC48694974619ABA6F5ED30B56 /* Pods-KDAlgorithmKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8EDC7506368BB1AE244BEBCB9F3E5952 /* KDAlgorithmKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDAlgorithmKit.modulemap; sourceTree = "<group>"; };
-		91F52FE22BAD8071D3B1ECACA1DA532C /* Pods-KDAlgorithmKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95D640F3D897DBE4C027DD6A1AA714F8 /* Pods_KDAlgorithmKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDAlgorithmKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AA873C8D0B62EA485C9C7C745DF80A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A20BB127493A8BB5B9E1662E9ADEDC9B /* Pods-KDAlgorithmKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDAlgorithmKit_Example-dummy.m"; sourceTree = "<group>"; };
-		AA24F6B1FDAD03EA2F97B072D4BE7AB0 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		AE7788AF04F4401C4377E9E1CC6957DC /* Pods-KDAlgorithmKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B6A6396C5F424D6CB2B63F052CAF747E /* Pods-KDAlgorithmKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		B82EEEEEE0307DDA0BB717711E0161C9 /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
-		C95792E6D50258AAC28C4766315708A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E4793AFF8A45428B94A700655C68513F /* KDAlgorithmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDAlgorithmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA87E2959F574B4642EF93CA3528FF0F /* KDAlgorithmKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDAlgorithmKit-umbrella.h"; sourceTree = "<group>"; };
-		EBA93897CD2F60035B2778E6E785187B /* Pods-KDAlgorithmKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDAlgorithmKit_Example.modulemap"; sourceTree = "<group>"; };
-		EC3F10C18C2D6A57AC5C33B5EC50F21D /* Pods-KDAlgorithmKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDAlgorithmKit_Tests.modulemap"; sourceTree = "<group>"; };
+		02CC2B05E076204DBBF2932178979D2A /* KDAlgorithmKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDAlgorithmKit.modulemap; sourceTree = "<group>"; };
+		0939222F6EC99D3D120F2BA4D07DD733 /* BinaryTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		13D723BA2F6CC63852A0B177BCE5E9C1 /* Pods_KDAlgorithmKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KDAlgorithmKit_Example.framework; path = "Pods-KDAlgorithmKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1824086B2C67F09306D8B149DDECE8E5 /* KDAlgorithmKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDAlgorithmKit-prefix.pch"; sourceTree = "<group>"; };
+		19604093658C63DBD064D7EE67F17176 /* Pods-KDAlgorithmKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1F2127EC1C41170B9A9D865517DEA907 /* KDAlgorithmKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KDAlgorithmKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		208D36BB9C251E93E43A4097AF020F97 /* Pods-KDAlgorithmKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		240A483ACE208CC3E511AAE8A17001F6 /* Pods-KDAlgorithmKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDAlgorithmKit_Tests.modulemap"; sourceTree = "<group>"; };
+		2EF15822CD91B2E30D7A486AF8BCFC61 /* KDAlgorithmKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDAlgorithmKit.xcconfig; sourceTree = "<group>"; };
+		30F8E8F706DBB0260C56AD90BCC6129A /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4078C887BCF14D77DF894370DE97E8C9 /* Pods-KDAlgorithmKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDAlgorithmKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		44ABF08B71D77E69903E781DE0D363D8 /* ST.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ST.swift; sourceTree = "<group>"; };
+		488FCB57F7AFD7F7885F7D98AC643970 /* Pods_KDAlgorithmKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KDAlgorithmKit_Tests.framework; path = "Pods-KDAlgorithmKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA61265E0EDBF15446CB67030348511 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		4DBAF04C6302526BEC3616345F333A6A /* Heap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		4E0BDAA54A24ECCB9B80AA7A70776DF2 /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		514BA98744044F1BAC098779DBD08709 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		55FD836CA9F4398CAED227C80B1751DA /* SinglyLinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SinglyLinkedList.swift; sourceTree = "<group>"; };
+		5732AC88641A1C1A475AAEB07C16DDB7 /* Pods-KDAlgorithmKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDAlgorithmKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		5F04ACFB021DC5CB520C0AFDA08E5ACA /* Pods-KDAlgorithmKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDAlgorithmKit_Example.modulemap"; sourceTree = "<group>"; };
+		6339578585F380A00B488CAEF66716D3 /* LRU.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LRU.swift; sourceTree = "<group>"; };
+		67B6E3ED0CC61E3853704E10CDE713C4 /* BinaryHeap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
+		6A9C10BAAF52336A757B5F465EF2AE86 /* Pods-KDAlgorithmKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDAlgorithmKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		6EA5CBE1E400AE17BC8D1855AE0ED087 /* Pods-KDAlgorithmKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDAlgorithmKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EAB3F08E51DF6B000450FAA19F7CEB6 /* LinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		85781FAA85256CD779C141BE4CB028FC /* Pods-KDAlgorithmKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDAlgorithmKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93E3053A0B12D049A9F7D3BC0CBB318D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97FF5752DFD640C480FCE58EF1D52294 /* Pods-KDAlgorithmKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC01C9E407B8A5F7E0CC26204394C7A7 /* KDAlgorithmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KDAlgorithmKit.framework; path = KDAlgorithmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE00AC472C772C8986453DDEC3936F54 /* KDAlgorithmKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDAlgorithmKit-dummy.m"; sourceTree = "<group>"; };
+		AE72421756D9E36AD455A7457CF2D6C1 /* Pods-KDAlgorithmKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDAlgorithmKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B948D8374FDAD9E04233DEF352EEA0F5 /* Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		BA37111EAECD3BE4D4D8012F33AC9FFA /* Pods-KDAlgorithmKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDAlgorithmKit_Example-Info.plist"; sourceTree = "<group>"; };
+		BA5F3B59290D21C5CCF14B9004190461 /* CompleteBinaryTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CompleteBinaryTree.swift; sourceTree = "<group>"; };
+		C86972B722009CBDC0EDEDDBE581DAA6 /* Pods-KDAlgorithmKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDAlgorithmKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		C87E09A178EE823AC7DB4AF62ECB0A57 /* KDAlgorithmKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KDAlgorithmKit-Info.plist"; sourceTree = "<group>"; };
+		C91BC1A1AF05CEACDED3030FB9EE93C2 /* Pods-KDAlgorithmKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE22EB8CE10B8B5B91216FC874673690 /* Pods-KDAlgorithmKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KDAlgorithmKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D07D17EDA397BF7A1C157B1C647DBC4A /* SortAlgorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SortAlgorithm.swift; sourceTree = "<group>"; };
+		D143ADA7036DDF366C3F1625DEF26134 /* Pods-KDAlgorithmKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDAlgorithmKit_Example-dummy.m"; sourceTree = "<group>"; };
+		F3623107A11F3163DD9521993D2A0D45 /* Pods-KDAlgorithmKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDAlgorithmKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7E38734514409DBE604A715414B3C5B /* KDAlgorithmKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDAlgorithmKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61FFAFC7DBAA1744DD7C38358F0AD2F7 /* Frameworks */ = {
+		0566C382A71422CB1621575EE3AFB216 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE565FD44BC8108BE59714B0718E9009 /* Foundation.framework in Frameworks */,
+				69733D4BD510C02B0A62845EA5C16002 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		910A3F202D6BCEF5420DBF2311BF26E2 /* Frameworks */ = {
+		3E08E5CF6EDFF4C00EB1C5024922D694 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E58B397A5A7B23D37728357345EBA2B /* Foundation.framework in Frameworks */,
+				AF90DBAD3D3D7D46C98B9AAE8135192E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2E039990353ABC964B928C192B1F405 /* Frameworks */ = {
+		EE88E9161457EE4724A417F9A4EFAE03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8ABD12A607A9AA88FF4D29B63DDC304 /* Foundation.framework in Frameworks */,
+				65431DC2A3B43337E66058CBFD43A1C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23B854D591368F87E5163244B56B160C /* Pod */ = {
+		052D24096AB0B159D5E212946F8E7AEA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				28D0A3B2868D1C7C23E51E715A0FE05F /* KDAlgorithmKit.podspec */,
-				5FB77597BCC988330856D2E57D59FE6A /* LICENSE */,
-				C95792E6D50258AAC28C4766315708A5 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3C29720C4C286DDAAE7E778236DE240D /* KDAlgorithmKit */ = {
-			isa = PBXGroup;
-			children = (
-				B353A90057DCEE5AE485348B48B89851 /* Algorithm */,
-				68F32328DB2ECCC12C587CFA164EB5A2 /* DataStructure */,
-				23B854D591368F87E5163244B56B160C /* Pod */,
-				AB517D451449FB156A747954E3AB7BFB /* Support Files */,
-			);
-			name = KDAlgorithmKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5C36E66F9BE9007F30D150F164CD5173 /* Pods-KDAlgorithmKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				10A4D036B728E4267F77A7001877D126 /* Info.plist */,
-				EBA93897CD2F60035B2778E6E785187B /* Pods-KDAlgorithmKit_Example.modulemap */,
-				4519E3FCEF065EC63CAB9AE82D2EBD7D /* Pods-KDAlgorithmKit_Example-acknowledgements.markdown */,
-				85A7FC84112127D40B5257623F9D8F13 /* Pods-KDAlgorithmKit_Example-acknowledgements.plist */,
-				A20BB127493A8BB5B9E1662E9ADEDC9B /* Pods-KDAlgorithmKit_Example-dummy.m */,
-				54836C64325BF7F6749B6D2AAB6DE446 /* Pods-KDAlgorithmKit_Example-frameworks.sh */,
-				220B959BE7948909B42A7C39958580FA /* Pods-KDAlgorithmKit_Example-resources.sh */,
-				0C9C825B1990B5CC13689800BEACFA01 /* Pods-KDAlgorithmKit_Example-umbrella.h */,
-				AE7788AF04F4401C4377E9E1CC6957DC /* Pods-KDAlgorithmKit_Example.debug.xcconfig */,
-				87C811CC48694974619ABA6F5ED30B56 /* Pods-KDAlgorithmKit_Example.release.xcconfig */,
-			);
-			name = "Pods-KDAlgorithmKit_Example";
-			path = "Target Support Files/Pods-KDAlgorithmKit_Example";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		68F32328DB2ECCC12C587CFA164EB5A2 /* DataStructure */ = {
-			isa = PBXGroup;
-			children = (
-				50C153D3521E77972F7D4B1EA44E4028 /* Heap.swift */,
-				AA24F6B1FDAD03EA2F97B072D4BE7AB0 /* Queue.swift */,
-				B82EEEEEE0307DDA0BB717711E0161C9 /* Stack.swift */,
-				1E48C8B6215F656500062FFE /* PriorityQueue.swift */,
-				1E48C8B8215F671800062FFE /* BinaryHeap.swift */,
-				1E48C8BA215F6CF100062FFE /* BinaryTree.swift */,
-				1E48C8BC215F7AC500062FFE /* CompleteBinaryTree.swift */,
-				1EA021632160A48600091219 /* SinglyLinkedList.swift */,
-				1EA0217B2164664500091219 /* ST.swift */,
-				1EB8E3D12164981A009B152D /* DoublyLinkedList.swift */,
-				1EB8E3D32164BAA3009B152D /* LRU.swift */,
-				1EF90E9021B4F91F00FD897F /* Graph.swift */,
-				1EF90E9221B4F9E200FD897F /* LinkedList.swift */,
-			);
-			name = DataStructure;
-			path = KDAlgorithmKit/Classes/DataStructure;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				93C05689A02456951376DE5B36CF20F6 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D8B3D656941E927530803E2301B44005 /* Products */,
-				D2BCCE0A0B923961E11418044959713C /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		93C05689A02456951376DE5B36CF20F6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3C29720C4C286DDAAE7E778236DE240D /* KDAlgorithmKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		AB517D451449FB156A747954E3AB7BFB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9AA873C8D0B62EA485C9C7C745DF80A5 /* Info.plist */,
-				8EDC7506368BB1AE244BEBCB9F3E5952 /* KDAlgorithmKit.modulemap */,
-				2EF50CF96BFE42A04C8C900BBE101DC6 /* KDAlgorithmKit.xcconfig */,
-				1A0BD813241C5C4C6A596EDFC70782F9 /* KDAlgorithmKit-dummy.m */,
-				166FD2EEEDB6F4897F747EE6FA6F14ED /* KDAlgorithmKit-prefix.pch */,
-				EA87E2959F574B4642EF93CA3528FF0F /* KDAlgorithmKit-umbrella.h */,
+				02CC2B05E076204DBBF2932178979D2A /* KDAlgorithmKit.modulemap */,
+				2EF15822CD91B2E30D7A486AF8BCFC61 /* KDAlgorithmKit.xcconfig */,
+				AE00AC472C772C8986453DDEC3936F54 /* KDAlgorithmKit-dummy.m */,
+				C87E09A178EE823AC7DB4AF62ECB0A57 /* KDAlgorithmKit-Info.plist */,
+				1824086B2C67F09306D8B149DDECE8E5 /* KDAlgorithmKit-prefix.pch */,
+				F7E38734514409DBE604A715414B3C5B /* KDAlgorithmKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/KDAlgorithmKit";
 			sourceTree = "<group>";
 		};
-		B353A90057DCEE5AE485348B48B89851 /* Algorithm */ = {
+		15EC3C050206E79636B413EDC676F80F /* sort */ = {
 			isa = PBXGroup;
 			children = (
-				EB0F901FE79E68EDD64C420C4F2CC4C9 /* sort */,
+				D07D17EDA397BF7A1C157B1C647DBC4A /* SortAlgorithm.swift */,
 			);
-			name = Algorithm;
-			path = KDAlgorithmKit/Classes/Algorithm;
+			name = sort;
+			path = sort;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		346B9F383A78C89D6512926D82DD2FBA /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				67B6E3ED0CC61E3853704E10CDE713C4 /* BinaryHeap.swift */,
+				0939222F6EC99D3D120F2BA4D07DD733 /* BinaryTree.swift */,
+				BA5F3B59290D21C5CCF14B9004190461 /* CompleteBinaryTree.swift */,
+				B948D8374FDAD9E04233DEF352EEA0F5 /* Graph.swift */,
+				4DBAF04C6302526BEC3616345F333A6A /* Heap.swift */,
+				7EAB3F08E51DF6B000450FAA19F7CEB6 /* LinkedList.swift */,
+				6339578585F380A00B488CAEF66716D3 /* LRU.swift */,
+				4E0BDAA54A24ECCB9B80AA7A70776DF2 /* PriorityQueue.swift */,
+				4DA61265E0EDBF15446CB67030348511 /* Queue.swift */,
+				55FD836CA9F4398CAED227C80B1751DA /* SinglyLinkedList.swift */,
+				44ABF08B71D77E69903E781DE0D363D8 /* ST.swift */,
+				30F8E8F706DBB0260C56AD90BCC6129A /* Stack.swift */,
 			);
-			name = Frameworks;
+			name = DataStructure;
+			path = KDAlgorithmKit/Classes/DataStructure;
 			sourceTree = "<group>";
 		};
-		D2BCCE0A0B923961E11418044959713C /* Targets Support Files */ = {
+		5CC0B92510B21DFCC77C48F115BA275D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5C36E66F9BE9007F30D150F164CD5173 /* Pods-KDAlgorithmKit_Example */,
-				E080386599FE7166DE6A6FA82B4FE38F /* Pods-KDAlgorithmKit_Tests */,
+				1F2127EC1C41170B9A9D865517DEA907 /* KDAlgorithmKit.podspec */,
+				93E3053A0B12D049A9F7D3BC0CBB318D /* LICENSE */,
+				514BA98744044F1BAC098779DBD08709 /* README.md */,
 			);
-			name = "Targets Support Files";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		D8B3D656941E927530803E2301B44005 /* Products */ = {
+		7EB0AD21FFA18213B7BEA69ACC8B2DB4 /* Pods-KDAlgorithmKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E4793AFF8A45428B94A700655C68513F /* KDAlgorithmKit.framework */,
-				0776EEE6FC24EA122F112EB0EE5F8AA3 /* Pods_KDAlgorithmKit_Example.framework */,
-				95D640F3D897DBE4C027DD6A1AA714F8 /* Pods_KDAlgorithmKit_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E080386599FE7166DE6A6FA82B4FE38F /* Pods-KDAlgorithmKit_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6C7C58D853CCA9018B1F9C100A7E60DB /* Info.plist */,
-				EC3F10C18C2D6A57AC5C33B5EC50F21D /* Pods-KDAlgorithmKit_Tests.modulemap */,
-				5121EE618315D6FCE5A952CC376AA6A4 /* Pods-KDAlgorithmKit_Tests-acknowledgements.markdown */,
-				476DDF7C78F5701620983D357812C2E8 /* Pods-KDAlgorithmKit_Tests-acknowledgements.plist */,
-				5E779E9D9621568316D5009B41BECC8A /* Pods-KDAlgorithmKit_Tests-dummy.m */,
-				91F52FE22BAD8071D3B1ECACA1DA532C /* Pods-KDAlgorithmKit_Tests-frameworks.sh */,
-				B6A6396C5F424D6CB2B63F052CAF747E /* Pods-KDAlgorithmKit_Tests-resources.sh */,
-				637517D28F8A60FCCE7EBBA1FF0B1A35 /* Pods-KDAlgorithmKit_Tests-umbrella.h */,
-				0220541C5F8FAC04673806F0A27C0F56 /* Pods-KDAlgorithmKit_Tests.debug.xcconfig */,
-				32F9D05193077F7A8EF02F99A14377C1 /* Pods-KDAlgorithmKit_Tests.release.xcconfig */,
+				240A483ACE208CC3E511AAE8A17001F6 /* Pods-KDAlgorithmKit_Tests.modulemap */,
+				F3623107A11F3163DD9521993D2A0D45 /* Pods-KDAlgorithmKit_Tests-acknowledgements.markdown */,
+				6EA5CBE1E400AE17BC8D1855AE0ED087 /* Pods-KDAlgorithmKit_Tests-acknowledgements.plist */,
+				5732AC88641A1C1A475AAEB07C16DDB7 /* Pods-KDAlgorithmKit_Tests-dummy.m */,
+				C86972B722009CBDC0EDEDDBE581DAA6 /* Pods-KDAlgorithmKit_Tests-Info.plist */,
+				AE72421756D9E36AD455A7457CF2D6C1 /* Pods-KDAlgorithmKit_Tests-umbrella.h */,
+				C91BC1A1AF05CEACDED3030FB9EE93C2 /* Pods-KDAlgorithmKit_Tests.debug.xcconfig */,
+				208D36BB9C251E93E43A4097AF020F97 /* Pods-KDAlgorithmKit_Tests.release.xcconfig */,
 			);
 			name = "Pods-KDAlgorithmKit_Tests";
 			path = "Target Support Files/Pods-KDAlgorithmKit_Tests";
 			sourceTree = "<group>";
 		};
-		EB0F901FE79E68EDD64C420C4F2CC4C9 /* sort */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				74538A6E46BBCE5B1886571697791ACC /* SortAlgorithm.swift */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			path = sort;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBF75EB57BF2B8FD9F47F5FDC2022FBF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF2A2AD74C76E7923F2FB5DF5F43250C /* Pods-KDAlgorithmKit_Example */,
+				7EB0AD21FFA18213B7BEA69ACC8B2DB4 /* Pods-KDAlgorithmKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ED627ED039AFCFB931ABEDFA753E7C86 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EDE95737767780BCE2E9B239C1A914CA /* Products */,
+				CBF75EB57BF2B8FD9F47F5FDC2022FBF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2A2AD74C76E7923F2FB5DF5F43250C /* Pods-KDAlgorithmKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5F04ACFB021DC5CB520C0AFDA08E5ACA /* Pods-KDAlgorithmKit_Example.modulemap */,
+				85781FAA85256CD779C141BE4CB028FC /* Pods-KDAlgorithmKit_Example-acknowledgements.markdown */,
+				4078C887BCF14D77DF894370DE97E8C9 /* Pods-KDAlgorithmKit_Example-acknowledgements.plist */,
+				D143ADA7036DDF366C3F1625DEF26134 /* Pods-KDAlgorithmKit_Example-dummy.m */,
+				CE22EB8CE10B8B5B91216FC874673690 /* Pods-KDAlgorithmKit_Example-frameworks.sh */,
+				BA37111EAECD3BE4D4D8012F33AC9FFA /* Pods-KDAlgorithmKit_Example-Info.plist */,
+				6A9C10BAAF52336A757B5F465EF2AE86 /* Pods-KDAlgorithmKit_Example-umbrella.h */,
+				97FF5752DFD640C480FCE58EF1D52294 /* Pods-KDAlgorithmKit_Example.debug.xcconfig */,
+				19604093658C63DBD064D7EE67F17176 /* Pods-KDAlgorithmKit_Example.release.xcconfig */,
+			);
+			name = "Pods-KDAlgorithmKit_Example";
+			path = "Target Support Files/Pods-KDAlgorithmKit_Example";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF87F6858FF98E221EAB2DB0330BF17B /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				15EC3C050206E79636B413EDC676F80F /* sort */,
+			);
+			name = Algorithm;
+			path = KDAlgorithmKit/Classes/Algorithm;
+			sourceTree = "<group>";
+		};
+		E992C9A3CE47719DC35FB572AF3A86BA /* KDAlgorithmKit */ = {
+			isa = PBXGroup;
+			children = (
+				DF87F6858FF98E221EAB2DB0330BF17B /* Algorithm */,
+				346B9F383A78C89D6512926D82DD2FBA /* DataStructure */,
+				5CC0B92510B21DFCC77C48F115BA275D /* Pod */,
+				052D24096AB0B159D5E212946F8E7AEA /* Support Files */,
+			);
+			name = KDAlgorithmKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ED627ED039AFCFB931ABEDFA753E7C86 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E992C9A3CE47719DC35FB572AF3A86BA /* KDAlgorithmKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EDE95737767780BCE2E9B239C1A914CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC01C9E407B8A5F7E0CC26204394C7A7 /* KDAlgorithmKit.framework */,
+				13D723BA2F6CC63852A0B177BCE5E9C1 /* Pods_KDAlgorithmKit_Example.framework */,
+				488FCB57F7AFD7F7885F7D98AC643970 /* Pods_KDAlgorithmKit_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		80CAA41EAD51D131A23D3DA9E35CE7F9 /* Headers */ = {
+		849499D128DF9C72371D511730371179 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29CF0D895B5550044531BF50744584A5 /* Pods-KDAlgorithmKit_Example-umbrella.h in Headers */,
+				DAA55814ED2F311840C00FB61C79F79B /* Pods-KDAlgorithmKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A85DF609F67D67C00BF5A93A58A74CAA /* Headers */ = {
+		8ED659A6940CB2D2B3571FDA06DBE5B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C14DD7199FA95E18DB861622575DEA5 /* Pods-KDAlgorithmKit_Tests-umbrella.h in Headers */,
+				ADD4A077F09AD0C92463A4A3264741A5 /* KDAlgorithmKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF96EBB91793E0AC975A16E2AC2BBC2 /* Headers */ = {
+		D02E45CD79FCF1AEE4E2C041D392A7D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE841C640DF24083FC437D8AF7B73BB /* KDAlgorithmKit-umbrella.h in Headers */,
+				2E18A059064B4CE37B3260AFA356FF63 /* Pods-KDAlgorithmKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		19005ECDB488DBA2CCF81E46366C93F3 /* KDAlgorithmKit */ = {
+		01BB9BA58F36719CAF57990DA7CD1981 /* Pods-KDAlgorithmKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A27960A52550940D5B5B54738F7FAE17 /* Build configuration list for PBXNativeTarget "KDAlgorithmKit" */;
+			buildConfigurationList = D9C776E268ACEDACF0B3E9685F60104D /* Build configuration list for PBXNativeTarget "Pods-KDAlgorithmKit_Tests" */;
 			buildPhases = (
-				EBF96EBB91793E0AC975A16E2AC2BBC2 /* Headers */,
-				F28AF6CD4DF6B5B25B70B7FC3951AE73 /* Sources */,
-				910A3F202D6BCEF5420DBF2311BF26E2 /* Frameworks */,
-				3814F4EAFDC0E805C30660A7B16CFA0E /* Resources */,
+				D02E45CD79FCF1AEE4E2C041D392A7D2 /* Headers */,
+				E1CA5A60A81ED10B6D88652183D27C0A /* Sources */,
+				EE88E9161457EE4724A417F9A4EFAE03 /* Frameworks */,
+				8C4DB6DA3F193EFC54592E5BDA646A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF6782E727FC6962C0758E05F7D14BB /* PBXTargetDependency */,
+			);
+			name = "Pods-KDAlgorithmKit_Tests";
+			productName = "Pods-KDAlgorithmKit_Tests";
+			productReference = 488FCB57F7AFD7F7885F7D98AC643970 /* Pods_KDAlgorithmKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B7F07E7AB35CBA29E2D8C694ABE4555 /* KDAlgorithmKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD63E07C631D61C470C4D1097859E97E /* Build configuration list for PBXNativeTarget "KDAlgorithmKit" */;
+			buildPhases = (
+				8ED659A6940CB2D2B3571FDA06DBE5B9 /* Headers */,
+				24369480E70E644DBE4AB07B11C9680C /* Sources */,
+				0566C382A71422CB1621575EE3AFB216 /* Frameworks */,
+				4D3359A5A4A4123C6001A3B17DC1A952 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,91 +348,72 @@
 			);
 			name = KDAlgorithmKit;
 			productName = KDAlgorithmKit;
-			productReference = E4793AFF8A45428B94A700655C68513F /* KDAlgorithmKit.framework */;
+			productReference = AC01C9E407B8A5F7E0CC26204394C7A7 /* KDAlgorithmKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4CCE4110630F102BADB28D97EB148742 /* Pods-KDAlgorithmKit_Tests */ = {
+		7F3743DB57534755DF945034159036F6 /* Pods-KDAlgorithmKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABEA085E218664C614D79DAD510DA126 /* Build configuration list for PBXNativeTarget "Pods-KDAlgorithmKit_Tests" */;
+			buildConfigurationList = 6045BB8806825BAEF00B656968A03089 /* Build configuration list for PBXNativeTarget "Pods-KDAlgorithmKit_Example" */;
 			buildPhases = (
-				A85DF609F67D67C00BF5A93A58A74CAA /* Headers */,
-				98F359C6A35A539417445CF880ACFD65 /* Sources */,
-				61FFAFC7DBAA1744DD7C38358F0AD2F7 /* Frameworks */,
-				45B85072A5CE73AE744C1C3F04307DEC /* Resources */,
+				849499D128DF9C72371D511730371179 /* Headers */,
+				3228926E095AA0BC8D9C9ED634ED7BBF /* Sources */,
+				3E08E5CF6EDFF4C00EB1C5024922D694 /* Frameworks */,
+				6FC808AFFE89E0A61CC7DFA00BDAB4FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A987C7FC73F84335C62DDFAC2D1200CA /* PBXTargetDependency */,
-			);
-			name = "Pods-KDAlgorithmKit_Tests";
-			productName = "Pods-KDAlgorithmKit_Tests";
-			productReference = 95D640F3D897DBE4C027DD6A1AA714F8 /* Pods_KDAlgorithmKit_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		53A58AA90FC4B855CC5DE6220399C787 /* Pods-KDAlgorithmKit_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3516ADED555BD4AF999FF2763A4DD75 /* Build configuration list for PBXNativeTarget "Pods-KDAlgorithmKit_Example" */;
-			buildPhases = (
-				80CAA41EAD51D131A23D3DA9E35CE7F9 /* Headers */,
-				0C67F857B9DFDEF80FA3C2ABF33E3D2B /* Sources */,
-				A2E039990353ABC964B928C192B1F405 /* Frameworks */,
-				EBF5785381B02F792DAFF44994DB2089 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2F746FF746050FD00E1C36F662182E40 /* PBXTargetDependency */,
+				D246A64F0A0C2CB574433A9C57FE513B /* PBXTargetDependency */,
 			);
 			name = "Pods-KDAlgorithmKit_Example";
 			productName = "Pods-KDAlgorithmKit_Example";
-			productReference = 0776EEE6FC24EA122F112EB0EE5F8AA3 /* Pods_KDAlgorithmKit_Example.framework */;
+			productReference = 13D723BA2F6CC63852A0B177BCE5E9C1 /* Pods_KDAlgorithmKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D8B3D656941E927530803E2301B44005 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EDE95737767780BCE2E9B239C1A914CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19005ECDB488DBA2CCF81E46366C93F3 /* KDAlgorithmKit */,
-				53A58AA90FC4B855CC5DE6220399C787 /* Pods-KDAlgorithmKit_Example */,
-				4CCE4110630F102BADB28D97EB148742 /* Pods-KDAlgorithmKit_Tests */,
+				6B7F07E7AB35CBA29E2D8C694ABE4555 /* KDAlgorithmKit */,
+				7F3743DB57534755DF945034159036F6 /* Pods-KDAlgorithmKit_Example */,
+				01BB9BA58F36719CAF57990DA7CD1981 /* Pods-KDAlgorithmKit_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3814F4EAFDC0E805C30660A7B16CFA0E /* Resources */ = {
+		4D3359A5A4A4123C6001A3B17DC1A952 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45B85072A5CE73AE744C1C3F04307DEC /* Resources */ = {
+		6FC808AFFE89E0A61CC7DFA00BDAB4FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF5785381B02F792DAFF44994DB2089 /* Resources */ = {
+		8C4DB6DA3F193EFC54592E5BDA646A31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,65 +423,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C67F857B9DFDEF80FA3C2ABF33E3D2B /* Sources */ = {
+		24369480E70E644DBE4AB07B11C9680C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC14E2800F4AD7B8FC60007017A9F687 /* Pods-KDAlgorithmKit_Example-dummy.m in Sources */,
+				D3C94980259E8AD601CC782CED8B434C /* BinaryHeap.swift in Sources */,
+				F2042858C2AE98247059978EE09E4586 /* BinaryTree.swift in Sources */,
+				2F64E9404D7D9B48032589D627195EBA /* CompleteBinaryTree.swift in Sources */,
+				E6E463AB87156F50484ACB7BFCE043AD /* Graph.swift in Sources */,
+				78DDC3057B1E8D3728DCD70D265E9DCB /* Heap.swift in Sources */,
+				A409B36C353827B2944AB08DD0640D0B /* KDAlgorithmKit-dummy.m in Sources */,
+				03AFD069D154977EF3AD0B6EB2E675A3 /* LinkedList.swift in Sources */,
+				3A1A6E4C3E935E9911D0F0A371E45D89 /* LRU.swift in Sources */,
+				7130AEB6A47D6CE461C27BE4D66370DA /* PriorityQueue.swift in Sources */,
+				C6C2E075FD9DEACD3EDBD9FE3940170E /* Queue.swift in Sources */,
+				E636DA2ECC4DD1C94FF815B54718026E /* SinglyLinkedList.swift in Sources */,
+				9C416CCE3362D6FB926141503FED2D50 /* SortAlgorithm.swift in Sources */,
+				312D4E0A0CB7A5E133013069513B8B39 /* ST.swift in Sources */,
+				D061E21AFED194D809CC84E93E5C54DA /* Stack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98F359C6A35A539417445CF880ACFD65 /* Sources */ = {
+		3228926E095AA0BC8D9C9ED634ED7BBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				934BD3E11DBBD4B3F04589FDC6B4E457 /* Pods-KDAlgorithmKit_Tests-dummy.m in Sources */,
+				70EDCEC599D4BECAEAC970232BA4696B /* Pods-KDAlgorithmKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F28AF6CD4DF6B5B25B70B7FC3951AE73 /* Sources */ = {
+		E1CA5A60A81ED10B6D88652183D27C0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E48C8BB215F6CF100062FFE /* BinaryTree.swift in Sources */,
-				153FCCBCC262609E97F415BB8D687A1D /* Heap.swift in Sources */,
-				1EF90E9121B4F91F00FD897F /* Graph.swift in Sources */,
-				1EA021642160A48600091219 /* SinglyLinkedList.swift in Sources */,
-				1EA0217C2164664500091219 /* ST.swift in Sources */,
-				1E48C8BD215F7AC500062FFE /* CompleteBinaryTree.swift in Sources */,
-				D55D127708C85D2B3F98DDCC9153F209 /* KDAlgorithmKit-dummy.m in Sources */,
-				ACE639934F7DD54F84A968F552EFD7C7 /* Queue.swift in Sources */,
-				1EB8E3D22164981A009B152D /* DoublyLinkedList.swift in Sources */,
-				1E48C8B9215F671800062FFE /* BinaryHeap.swift in Sources */,
-				1EB8E3D42164BAA3009B152D /* LRU.swift in Sources */,
-				18F94DCA34CEE6CF01A89CF47A376DAF /* SortAlgorithm.swift in Sources */,
-				1EF90E9321B4F9E200FD897F /* LinkedList.swift in Sources */,
-				22605C1CD640D41201B48D0410C5060C /* Stack.swift in Sources */,
-				1E48C8B7215F656500062FFE /* PriorityQueue.swift in Sources */,
+				EB3B4DDC34567F7FC54BB22FADD686A9 /* Pods-KDAlgorithmKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2F746FF746050FD00E1C36F662182E40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KDAlgorithmKit;
-			target = 19005ECDB488DBA2CCF81E46366C93F3 /* KDAlgorithmKit */;
-			targetProxy = 83BDD05F7B95C1E7A602189F07E9D9BD /* PBXContainerItemProxy */;
-		};
-		A987C7FC73F84335C62DDFAC2D1200CA /* PBXTargetDependency */ = {
+		4AF6782E727FC6962C0758E05F7D14BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KDAlgorithmKit_Example";
-			target = 53A58AA90FC4B855CC5DE6220399C787 /* Pods-KDAlgorithmKit_Example */;
-			targetProxy = B64E93671EAD89D7E897C7CA812F9B58 /* PBXContainerItemProxy */;
+			target = 7F3743DB57534755DF945034159036F6 /* Pods-KDAlgorithmKit_Example */;
+			targetProxy = 8A5558E7A5B00F0B7C5A5BB844D0DBCF /* PBXContainerItemProxy */;
+		};
+		D246A64F0A0C2CB574433A9C57FE513B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KDAlgorithmKit;
+			target = 6B7F07E7AB35CBA29E2D8C694ABE4555 /* KDAlgorithmKit */;
+			targetProxy = AC2DBD41C0324EA5F2B2C75EE28B6400 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		31B57AA6BE399568EFBA0A0625C77F51 /* Release */ = {
+		3E47C42D4A11CDD4CBDBB3347145D13F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32F9D05193077F7A8EF02F99A14377C1 /* Pods-KDAlgorithmKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 208D36BB9C251E93E43A4097AF020F97 /* Pods-KDAlgorithmKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -501,7 +492,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KDAlgorithmKit_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDAlgorithmKit_Tests/Pods-KDAlgorithmKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -521,7 +512,105 @@
 			};
 			name = Release;
 		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+		55B198EC36497BD87D67B934DE4ECAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97FF5752DFD640C480FCE58EF1D52294 /* Pods-KDAlgorithmKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9494AFD8C23C34D3A4BD3B20FD9257B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19604093658C63DBD064D7EE67F17176 /* Pods-KDAlgorithmKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD04CF01FD715B5A6652F5DFCED91096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF15822CD91B2E30D7A486AF8BCFC61 /* KDAlgorithmKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KDAlgorithmKit/KDAlgorithmKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDAlgorithmKit/KDAlgorithmKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KDAlgorithmKit/KDAlgorithmKit.modulemap";
+				PRODUCT_MODULE_NAME = KDAlgorithmKit;
+				PRODUCT_NAME = KDAlgorithmKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -553,8 +642,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -576,48 +663,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		7FA996AD55909A2280BE6DABC37B3DC0 /* Release */ = {
+		B3D7F684F621F50F102BED5B2ED18C73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87C811CC48694974619ABA6F5ED30B56 /* Pods-KDAlgorithmKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KDAlgorithmKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		838CEDFB3F737CDC409D586873022187 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EF50CF96BFE42A04C8C900BBE101DC6 /* KDAlgorithmKit.xcconfig */;
+			baseConfigurationReference = 2EF15822CD91B2E30D7A486AF8BCFC61 /* KDAlgorithmKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -629,7 +684,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/KDAlgorithmKit/KDAlgorithmKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KDAlgorithmKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/KDAlgorithmKit/KDAlgorithmKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -639,8 +694,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -648,39 +702,7 @@
 			};
 			name = Release;
 		};
-		921B7C9BB0B846D75CAED0A4A6999730 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EF50CF96BFE42A04C8C900BBE101DC6 /* KDAlgorithmKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KDAlgorithmKit/KDAlgorithmKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KDAlgorithmKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KDAlgorithmKit/KDAlgorithmKit.modulemap";
-				PRODUCT_MODULE_NAME = KDAlgorithmKit;
-				PRODUCT_NAME = KDAlgorithmKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -712,8 +734,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -740,13 +760,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		C3B752BD6E126C4229C1E6E7E22392DC /* Debug */ = {
+		FD59418A7B48504624021B220E1BA4CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0220541C5F8FAC04673806F0A27C0F56 /* Pods-KDAlgorithmKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = C91BC1A1AF05CEACDED3030FB9EE93C2 /* Pods-KDAlgorithmKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -758,7 +780,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KDAlgorithmKit_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KDAlgorithmKit_Tests/Pods-KDAlgorithmKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -777,81 +799,46 @@
 			};
 			name = Debug;
 		};
-		E9361DD5AA2A4F0F946F117A0C67263B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE7788AF04F4401C4377E9E1CC6957DC /* Pods-KDAlgorithmKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KDAlgorithmKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A27960A52550940D5B5B54738F7FAE17 /* Build configuration list for PBXNativeTarget "KDAlgorithmKit" */ = {
+		6045BB8806825BAEF00B656968A03089 /* Build configuration list for PBXNativeTarget "Pods-KDAlgorithmKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				921B7C9BB0B846D75CAED0A4A6999730 /* Debug */,
-				838CEDFB3F737CDC409D586873022187 /* Release */,
+				55B198EC36497BD87D67B934DE4ECAD5 /* Debug */,
+				9494AFD8C23C34D3A4BD3B20FD9257B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABEA085E218664C614D79DAD510DA126 /* Build configuration list for PBXNativeTarget "Pods-KDAlgorithmKit_Tests" */ = {
+		D9C776E268ACEDACF0B3E9685F60104D /* Build configuration list for PBXNativeTarget "Pods-KDAlgorithmKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3B752BD6E126C4229C1E6E7E22392DC /* Debug */,
-				31B57AA6BE399568EFBA0A0625C77F51 /* Release */,
+				FD59418A7B48504624021B220E1BA4CF /* Debug */,
+				3E47C42D4A11CDD4CBDBB3347145D13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3516ADED555BD4AF999FF2763A4DD75 /* Build configuration list for PBXNativeTarget "Pods-KDAlgorithmKit_Example" */ = {
+		DD63E07C631D61C470C4D1097859E97E /* Build configuration list for PBXNativeTarget "KDAlgorithmKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9361DD5AA2A4F0F946F117A0C67263B /* Debug */,
-				7FA996AD55909A2280BE6DABC37B3DC0 /* Release */,
+				AD04CF01FD715B5A6652F5DFCED91096 /* Debug */,
+				B3D7F684F621F50F102BED5B2ED18C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

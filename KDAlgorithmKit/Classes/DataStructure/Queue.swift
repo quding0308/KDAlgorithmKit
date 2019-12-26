@@ -60,12 +60,12 @@ public struct Queue<T> {
     fileprivate var array = [T?]()
     fileprivate var head = 0
     
-    public var isEmpty: Bool {
-        return count == 0
-    }
-    
     public var count: Int {
         return array.count - head
+    }
+    
+    public var isEmpty: Bool {
+        return count == 0
     }
     
     public mutating func enqueue(_ element: T) {

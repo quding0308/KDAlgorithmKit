@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		12AD6501330F511AAEC27FF4 /* Pods_KDAlgorithmKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2A6E1FBD95524DA996879 /* Pods_KDAlgorithmKit_Example.framework */; };
+		1EFD24A423B4C2A500F01D12 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD24A323B4C2A500F01D12 /* LinkedListTests.swift */; };
+		1EFD24A623B4C2D700F01D12 /* HeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD24A523B4C2D700F01D12 /* HeapTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		0E122E88EE81E82AA925E8C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1EFD24A323B4C2A500F01D12 /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
+		1EFD24A523B4C2D700F01D12 /* HeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTests.swift; sourceTree = "<group>"; };
 		3E39A349B99E5AD4CA15C738 /* Pods-KDAlgorithmKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDAlgorithmKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KDAlgorithmKit_Tests/Pods-KDAlgorithmKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KDAlgorithmKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDAlgorithmKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,8 +139,10 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				1EFD24A323B4C2A500F01D12 /* LinkedListTests.swift */,
+				1EFD24A523B4C2D700F01D12 /* HeapTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -315,7 +322,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KDAlgorithmKit/KDAlgorithmKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -326,7 +333,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KDAlgorithmKit_Example/Pods-KDAlgorithmKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -345,6 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFD24A623B4C2D700F01D12 /* HeapTests.swift in Sources */,
+				1EFD24A423B4C2A500F01D12 /* LinkedListTests.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,13 +496,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KDAlgorithmKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qd.algorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -506,13 +516,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KDAlgorithmKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.qd.algorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
