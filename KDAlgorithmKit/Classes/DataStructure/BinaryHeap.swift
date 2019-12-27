@@ -1,96 +1,135 @@
 //
 //  BinaryHeap.swift
-//  KDAlgorithmKit
+//  KDTool
 //
-//  Created by hour on 2018/9/29.
+//  Created by hour on 2018/8/7.
 //
 
-import Foundation
-
-/**
- */
-class BinaryHeap: NSObject {
+public struct BinaryHeap<T> {
     
-    public func insert(_ element: Int) {
-        
+    /** The array that stores the heap's nodes. */
+    var nodes = [T]()
+    
+    private var orderCriteria: (T, T) -> Bool
+    
+    public var isEmpty: Bool {
+        return nodes.isEmpty
     }
     
-    // 最大堆
-    public func root() -> Int {
-        return 0
-    }
-}
-
-class MaxBinaryHeap: NSObject {
-    
-    private var array = [Int]()
-    
-    public func insert(_ element: Int) {
-        array.append(element)
-        
-        MaxBinaryHeap.upValue(array: &array, index: array.endIndex)
+    public var count: Int {
+        return nodes.count
     }
     
-    // 最大堆
-    public func root() -> Int? {
-        let first = array.first
-        
-        // 把最后一个拿到root位置
-        array.swapAt(array.startIndex, array.endIndex)
-        
-        array.removeLast()
-//        array 的length就是真实的堆中的元素个数
-        
-        MaxBinaryHeap.downValueMaxHeap(array: &array, parrentIndex: 0)
-        
-        return first
+    public init(sort: @escaping (T, T) -> Bool) {
+        self.orderCriteria = sort
     }
     
-    /// 插入一个值后，执行up操作     【最后一个值up】
-    ///
-    /// - Parameters:
-    ///   - array:
-    ///   - index: childIndex
-    fileprivate static func upValue(array: inout [Int], index: Int) {
-        if index == 0 {
-            return
-        }
-        
-        let parentIndex = index / 2
-        
-        if array[parentIndex] < array[index] {
-            array.swapAt(parentIndex, index)
-        
-            if parentIndex > 0 {
-                // recursive 直到root
-                upValue(array: &array, index: parentIndex)
-            }
+    public init(array: [T], sort: @escaping (T, T) -> Bool) {
+        self.orderCriteria = sort
+        configureHeap(from: array)
+    }
+    
+    public mutating func configureHeap(from array: [T]) {
+        nodes = array
+        for i in stride(from: (nodes.count/2-1), through: 0, by: -1) {
+          shiftDown(i)
         }
     }
     
-    /// 取出一个root后 用最后一个值填充，执行down操作    【root改变后 down】
-    ///
-    /// - Parameters:
-    ///   - array:
-    ///   - index: parentIndex
-    fileprivate static func downValueMaxHeap(array: inout [Int], parrentIndex: Int) {
-        if parrentIndex >= array.endIndex {
-            return
-        }
+    internal func parentIndex(ofIndex i: Int) -> Int {
+        return (i - 1) / 2
+    }
+    
+    internal func leftChildIndex(ofIndex i: Int) -> Int {
+        return 2 * i + 1
+    }
+    
+    internal func rightChildIndex(ofIndex i: Int) -> Int {
+        return 2 * i + 2
+    }
+    
+    public func peek() -> T? {
+        return nodes.first
+    }
+    
+    public mutating func insert(_ value: T) {
+        nodes.append(value)
+        shiftUp(nodes.count - 1)
+    }
+    
+    public mutating func replace(index i: Int, value: T) {
+        guard i < nodes.count else { return }
+    
+        remove(at: i)
+        insert(value)
+    }
+    
+    /**
+      * Removes the root node from the heap. For a max-heap, this is the maximum
+      * value; for a min-heap it is the minimum value. Performance: O(log n).
+      */
+     @discardableResult public mutating func remove() -> T? {
+       guard !nodes.isEmpty else { return nil }
+       
+       if nodes.count == 1 {
+         return nodes.removeLast()
+       } else {
+         // Use the last node to replace the first one, then fix the heap by
+         // shifting this new first node into its proper position.
+         let value = nodes[0]
+         nodes[0] = nodes.removeLast()
+         shiftDown(0)
+         return value
+       }
+     }
+     
+    @discardableResult public mutating func remove(at index: Int) -> T? {
+        guard index < nodes.count else { return nil }
         
-        var childIndex = parrentIndex * 2 + 1
-        
-        // 找到child node中大的那个
-        if childIndex + 1 < array.count {
-            if array[childIndex] < array[childIndex + 1] {
-                childIndex += 1
-            }
-        }
-        
-        if array[childIndex] > array[parrentIndex] {
-            array.swapAt(childIndex, parrentIndex)
+        let size = nodes.count - 1
+        if index != size {
+            nodes.swapAt(index, size)
             
-            downValueMaxHeap(array: &array, parrentIndex: childIndex)
+            shiftDown(from: index, until: size)
+            shiftUp(index)
         }
+        
+        return nodes.removeLast()
     }
+    
+    internal mutating func shiftUp(_ index: Int) {
+        var childIndex = index
+        let child = nodes[childIndex]
+        var parentIndex = self.parentIndex(ofIndex: childIndex)
+        
+        while childIndex > 0 && orderCriteria(child, nodes[parentIndex]) {
+            nodes[childIndex] = nodes[parentIndex]
+            childIndex = parentIndex
+            parentIndex = self.parentIndex(ofIndex: childIndex)
+        }
+        
+        nodes[childIndex] = child
+    }
+
+    internal mutating func shiftDown(_ index: Int) {
+      shiftDown(from: index, until: nodes.count)
+    }
+    
+    internal mutating func shiftDown(from index: Int, until endIndex: Int) {
+        let leftChildIndex = self.leftChildIndex(ofIndex: index)
+        let rightChildIndex = self.rightChildIndex(ofIndex: index)
+        
+        var first = index
+        if leftChildIndex < endIndex && orderCriteria(nodes[leftChildIndex], nodes[first]) {
+            first = leftChildIndex
+        }
+        if rightChildIndex < endIndex && orderCriteria(nodes[rightChildIndex], nodes[first]) {
+            first = rightChildIndex
+        }
+        if first == index { return }
+        
+        nodes.swapAt(index, first)
+        shiftDown(from: first, until: endIndex)
+    }
+    
 }

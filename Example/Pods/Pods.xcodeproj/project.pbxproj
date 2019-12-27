@@ -16,14 +16,13 @@
 		69733D4BD510C02B0A62845EA5C16002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		70EDCEC599D4BECAEAC970232BA4696B /* Pods-KDAlgorithmKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D143ADA7036DDF366C3F1625DEF26134 /* Pods-KDAlgorithmKit_Example-dummy.m */; };
 		7130AEB6A47D6CE461C27BE4D66370DA /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0BDAA54A24ECCB9B80AA7A70776DF2 /* PriorityQueue.swift */; };
-		78DDC3057B1E8D3728DCD70D265E9DCB /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAF04C6302526BEC3616345F333A6A /* Heap.swift */; };
+		78DDC3057B1E8D3728DCD70D265E9DCB /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAF04C6302526BEC3616345F333A6A /* BinaryHeap.swift */; };
 		9C416CCE3362D6FB926141503FED2D50 /* SortAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D17EDA397BF7A1C157B1C647DBC4A /* SortAlgorithm.swift */; };
 		A409B36C353827B2944AB08DD0640D0B /* KDAlgorithmKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE00AC472C772C8986453DDEC3936F54 /* KDAlgorithmKit-dummy.m */; };
 		ADD4A077F09AD0C92463A4A3264741A5 /* KDAlgorithmKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E38734514409DBE604A715414B3C5B /* KDAlgorithmKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF90DBAD3D3D7D46C98B9AAE8135192E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C6C2E075FD9DEACD3EDBD9FE3940170E /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA61265E0EDBF15446CB67030348511 /* Queue.swift */; };
 		D061E21AFED194D809CC84E93E5C54DA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8E8F706DBB0260C56AD90BCC6129A /* Stack.swift */; };
-		D3C94980259E8AD601CC782CED8B434C /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B6E3ED0CC61E3853704E10CDE713C4 /* BinaryHeap.swift */; };
 		DAA55814ED2F311840C00FB61C79F79B /* Pods-KDAlgorithmKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9C10BAAF52336A757B5F465EF2AE86 /* Pods-KDAlgorithmKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E636DA2ECC4DD1C94FF815B54718026E /* SinglyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FD836CA9F4398CAED227C80B1751DA /* SinglyLinkedList.swift */; };
 		E6E463AB87156F50484ACB7BFCE043AD /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B948D8374FDAD9E04233DEF352EEA0F5 /* Graph.swift */; };
@@ -51,10 +50,10 @@
 /* Begin PBXFileReference section */
 		02CC2B05E076204DBBF2932178979D2A /* KDAlgorithmKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDAlgorithmKit.modulemap; sourceTree = "<group>"; };
 		0939222F6EC99D3D120F2BA4D07DD733 /* BinaryTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
-		13D723BA2F6CC63852A0B177BCE5E9C1 /* Pods_KDAlgorithmKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KDAlgorithmKit_Example.framework; path = "Pods-KDAlgorithmKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D723BA2F6CC63852A0B177BCE5E9C1 /* Pods_KDAlgorithmKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDAlgorithmKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1824086B2C67F09306D8B149DDECE8E5 /* KDAlgorithmKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDAlgorithmKit-prefix.pch"; sourceTree = "<group>"; };
 		19604093658C63DBD064D7EE67F17176 /* Pods-KDAlgorithmKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1F2127EC1C41170B9A9D865517DEA907 /* KDAlgorithmKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KDAlgorithmKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F2127EC1C41170B9A9D865517DEA907 /* KDAlgorithmKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KDAlgorithmKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		208D36BB9C251E93E43A4097AF020F97 /* Pods-KDAlgorithmKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		240A483ACE208CC3E511AAE8A17001F6 /* Pods-KDAlgorithmKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDAlgorithmKit_Tests.modulemap"; sourceTree = "<group>"; };
 		2EF15822CD91B2E30D7A486AF8BCFC61 /* KDAlgorithmKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDAlgorithmKit.xcconfig; sourceTree = "<group>"; };
@@ -62,24 +61,23 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4078C887BCF14D77DF894370DE97E8C9 /* Pods-KDAlgorithmKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDAlgorithmKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		44ABF08B71D77E69903E781DE0D363D8 /* ST.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ST.swift; sourceTree = "<group>"; };
-		488FCB57F7AFD7F7885F7D98AC643970 /* Pods_KDAlgorithmKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KDAlgorithmKit_Tests.framework; path = "Pods-KDAlgorithmKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		488FCB57F7AFD7F7885F7D98AC643970 /* Pods_KDAlgorithmKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDAlgorithmKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA61265E0EDBF15446CB67030348511 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		4DBAF04C6302526BEC3616345F333A6A /* Heap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		4DBAF04C6302526BEC3616345F333A6A /* BinaryHeap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
 		4E0BDAA54A24ECCB9B80AA7A70776DF2 /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
-		514BA98744044F1BAC098779DBD08709 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		514BA98744044F1BAC098779DBD08709 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		55FD836CA9F4398CAED227C80B1751DA /* SinglyLinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SinglyLinkedList.swift; sourceTree = "<group>"; };
 		5732AC88641A1C1A475AAEB07C16DDB7 /* Pods-KDAlgorithmKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KDAlgorithmKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		5F04ACFB021DC5CB520C0AFDA08E5ACA /* Pods-KDAlgorithmKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KDAlgorithmKit_Example.modulemap"; sourceTree = "<group>"; };
 		6339578585F380A00B488CAEF66716D3 /* LRU.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LRU.swift; sourceTree = "<group>"; };
-		67B6E3ED0CC61E3853704E10CDE713C4 /* BinaryHeap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
 		6A9C10BAAF52336A757B5F465EF2AE86 /* Pods-KDAlgorithmKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDAlgorithmKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		6EA5CBE1E400AE17BC8D1855AE0ED087 /* Pods-KDAlgorithmKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KDAlgorithmKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7EAB3F08E51DF6B000450FAA19F7CEB6 /* LinkedList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		85781FAA85256CD779C141BE4CB028FC /* Pods-KDAlgorithmKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KDAlgorithmKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93E3053A0B12D049A9F7D3BC0CBB318D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93E3053A0B12D049A9F7D3BC0CBB318D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		97FF5752DFD640C480FCE58EF1D52294 /* Pods-KDAlgorithmKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KDAlgorithmKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC01C9E407B8A5F7E0CC26204394C7A7 /* KDAlgorithmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KDAlgorithmKit.framework; path = KDAlgorithmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC01C9E407B8A5F7E0CC26204394C7A7 /* KDAlgorithmKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDAlgorithmKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE00AC472C772C8986453DDEC3936F54 /* KDAlgorithmKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDAlgorithmKit-dummy.m"; sourceTree = "<group>"; };
 		AE72421756D9E36AD455A7457CF2D6C1 /* Pods-KDAlgorithmKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KDAlgorithmKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B948D8374FDAD9E04233DEF352EEA0F5 /* Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
@@ -142,18 +140,16 @@
 			children = (
 				D07D17EDA397BF7A1C157B1C647DBC4A /* SortAlgorithm.swift */,
 			);
-			name = sort;
 			path = sort;
 			sourceTree = "<group>";
 		};
 		346B9F383A78C89D6512926D82DD2FBA /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				67B6E3ED0CC61E3853704E10CDE713C4 /* BinaryHeap.swift */,
 				0939222F6EC99D3D120F2BA4D07DD733 /* BinaryTree.swift */,
 				BA5F3B59290D21C5CCF14B9004190461 /* CompleteBinaryTree.swift */,
 				B948D8374FDAD9E04233DEF352EEA0F5 /* Graph.swift */,
-				4DBAF04C6302526BEC3616345F333A6A /* Heap.swift */,
+				4DBAF04C6302526BEC3616345F333A6A /* BinaryHeap.swift */,
 				7EAB3F08E51DF6B000450FAA19F7CEB6 /* LinkedList.swift */,
 				6339578585F380A00B488CAEF66716D3 /* LRU.swift */,
 				4E0BDAA54A24ECCB9B80AA7A70776DF2 /* PriorityQueue.swift */,
@@ -427,11 +423,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C94980259E8AD601CC782CED8B434C /* BinaryHeap.swift in Sources */,
 				F2042858C2AE98247059978EE09E4586 /* BinaryTree.swift in Sources */,
 				2F64E9404D7D9B48032589D627195EBA /* CompleteBinaryTree.swift in Sources */,
 				E6E463AB87156F50484ACB7BFCE043AD /* Graph.swift in Sources */,
-				78DDC3057B1E8D3728DCD70D265E9DCB /* Heap.swift in Sources */,
+				78DDC3057B1E8D3728DCD70D265E9DCB /* BinaryHeap.swift in Sources */,
 				A409B36C353827B2944AB08DD0640D0B /* KDAlgorithmKit-dummy.m in Sources */,
 				03AFD069D154977EF3AD0B6EB2E675A3 /* LinkedList.swift in Sources */,
 				3A1A6E4C3E935E9911D0F0A371E45D89 /* LRU.swift in Sources */,
@@ -663,8 +658,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
