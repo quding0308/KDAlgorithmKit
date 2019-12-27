@@ -1,10 +1,5 @@
 # KDAlgorithmKit
 
-[![CI Status](https://img.shields.io/travis/quding/KDAlgorithmKit.svg?style=flat)](https://travis-ci.org/quding/KDAlgorithmKit)
-[![Version](https://img.shields.io/cocoapods/v/KDAlgorithmKit.svg?style=flat)](https://cocoapods.org/pods/KDAlgorithmKit)
-[![License](https://img.shields.io/cocoapods/l/KDAlgorithmKit.svg?style=flat)](https://cocoapods.org/pods/KDAlgorithmKit)
-[![Platform](https://img.shields.io/cocoapods/p/KDAlgorithmKit.svg?style=flat)](https://cocoapods.org/pods/KDAlgorithmKit)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +17,7 @@ pod 'KDAlgorithmKit'
 
 ## Author
 
-quding, ding_qu@kingdee.com
+quding, quding0308@163.com
 
 ## License
 
