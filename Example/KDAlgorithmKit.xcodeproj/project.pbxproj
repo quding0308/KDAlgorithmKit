@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		12AD6501330F511AAEC27FF4 /* Pods_KDAlgorithmKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2A6E1FBD95524DA996879 /* Pods_KDAlgorithmKit_Example.framework */; };
 		1E57A9D623B60C9A0057751E /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57A9D523B60C9A0057751E /* BinarySearch.swift */; };
+		1EE0D29E23BB3D0000E9D8F7 /* GraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0D29D23BB3D0000E9D8F7 /* GraphTest.swift */; };
 		1EFD24A423B4C2A500F01D12 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD24A323B4C2A500F01D12 /* LinkedListTests.swift */; };
 		1EFD24A623B4C2D700F01D12 /* HeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD24A523B4C2D700F01D12 /* HeapTests.swift */; };
 		1EFD24A823B5D7BA00F01D12 /* BinaryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD24A723B5D7BA00F01D12 /* BinaryTreeTests.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		0E122E88EE81E82AA925E8C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1E57A9D523B60C9A0057751E /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		1EE0D29D23BB3D0000E9D8F7 /* GraphTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTest.swift; sourceTree = "<group>"; };
 		1EFD24A323B4C2A500F01D12 /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
 		1EFD24A523B4C2D700F01D12 /* HeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapTests.swift; sourceTree = "<group>"; };
 		1EFD24A723B5D7BA00F01D12 /* BinaryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTests.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				1E57A9D523B60C9A0057751E /* BinarySearch.swift */,
+				1EE0D29D23BB3D0000E9D8F7 /* GraphTest.swift */,
 			);
 			name = algorithm;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE0D29E23BB3D0000E9D8F7 /* GraphTest.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				1E57A9D623B60C9A0057751E /* BinarySearch.swift in Sources */,
