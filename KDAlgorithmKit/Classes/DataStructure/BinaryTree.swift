@@ -73,11 +73,21 @@ extension BinaryTree {
     }
 }
 
-extension BinaryTree {
-    public func traverseWidthFirst(process: (T) -> Void) {
-        
-        
-        
+public class BinaryTreeUtil<T> {
+    fileprivate var queue = Queue<BinaryTree<T>>()
+
+    public required init() {}
+
+    // 广度优先遍历
+    public func traverseBreadthFirst(_ binaryTree: BinaryTree<T>, process: (T) -> Void) {
+        if case let .node(left, value, right) = binaryTree {
+            process(value)
+            queue.enqueue(left)
+            queue.enqueue(right)
+        }
+
+        if let node = queue.dequeue() {
+            traverseBreadthFirst(node, process: process)
+        }
     }
 }
-

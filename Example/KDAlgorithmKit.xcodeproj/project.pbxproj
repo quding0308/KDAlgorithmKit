@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12AD6501330F511AAEC27FF4 /* Pods_KDAlgorithmKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A2A6E1FBD95524DA996879 /* Pods_KDAlgorithmKit_Example.framework */; };
+		1E1BA85523BDEFF0003A5D31 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1BA85423BDEFF0003A5D31 /* Dijkstra.swift */; };
 		1E57A9D623B60C9A0057751E /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57A9D523B60C9A0057751E /* BinarySearch.swift */; };
 		1EE0D29E23BB3D0000E9D8F7 /* GraphTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE0D29D23BB3D0000E9D8F7 /* GraphTest.swift */; };
 		1EFD24A423B4C2A500F01D12 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD24A323B4C2A500F01D12 /* LinkedListTests.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		0E122E88EE81E82AA925E8C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1E1BA85423BDEFF0003A5D31 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 		1E57A9D523B60C9A0057751E /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		1EE0D29D23BB3D0000E9D8F7 /* GraphTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTest.swift; sourceTree = "<group>"; };
 		1EFD24A323B4C2A500F01D12 /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
@@ -79,9 +81,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1BA85323BDEDBE003A5D31 /* Dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				1E1BA85423BDEFF0003A5D31 /* Dijkstra.swift */,
+			);
+			name = Dijkstra;
+			sourceTree = "<group>";
+		};
 		1E57A9D423B60C860057751E /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				1E1BA85323BDEDBE003A5D31 /* Dijkstra */,
 				1E57A9D523B60C9A0057751E /* BinarySearch.swift */,
 				1EE0D29D23BB3D0000E9D8F7 /* GraphTest.swift */,
 			);
@@ -364,6 +375,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				1E57A9D623B60C9A0057751E /* BinarySearch.swift in Sources */,
+				1E1BA85523BDEFF0003A5D31 /* Dijkstra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

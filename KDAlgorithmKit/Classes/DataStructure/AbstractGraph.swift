@@ -11,6 +11,9 @@ import Foundation
 public struct Vertex<T>: Equatable where T: Hashable {
     public var data: T
     public let index: Int
+    
+    // 遍历使用
+    var isVisited = false
 }
 
 extension Vertex: CustomStringConvertible {
@@ -127,92 +130,44 @@ public class AbstractGraph<T>: CustomStringConvertible where T: Hashable {
     }
 }
 
-//public struct Graph {
-//    private var v: Int  // 顶点个数
-//    private var adj: [LinkedList<Int>]
-//
-//    public init(v: Int) {
-//        self.v = v
-//
-//        adj = [LinkedList<Int>]()
-//        for _ in 0..<v {
-//            adj.append(LinkedList<Int>())
-//        }
+extension AbstractGraph {
+    public func traverseDepthFirst(process: (T) -> Void) {
+        traverseDepthFirst(vertices[0], process: process)
+    }
+    
+    public func traverseDepthFirst(_ vertex: Vertex<T>, process: (T) -> Void) {
+        if vertex.isVisited {
+            return
+        }
+        
+        let edges = edgesFrom(vertex)
+        for edge in edges {
+            traverseDepthFirst(edge.to, process: process)
+        }
+        
+//        vertex.isVisited = true
+        process(vertex.data)
+    }
+    
+//    public func traverseBreadthFirst(process: (T) -> Void) {
+//        traverseBreadthFirst(vertices[0], process: process)
 //    }
-//
-//    public func addEdge(s: Int, t: Int) {   // 无向图 两个链表都增加
-//        adj[s-1].add(t-1)
-//        adj[t-1].add(s-1)
-//    }
-//
-//    private func printPath(prev: [Int], s: Int, t: Int) {
-//        if (prev[t] != -1 && t != s) {
-//            printPath(prev: prev, s: s, t: prev[t])
-//        }
-//
-//        print("\(t+1)  ")
-//    }
-//}
-//
-//extension Graph {
-//    mutating public func bfs(s: Int, t: Int) {
-//        // 用于记录某个顶点是否访问过
-//        var visited = [Bool](repeating: false, count: v)
-//        // 用于输出走过路径  值 存储上一个顶点的坐标
-//        var prev = [Int](repeating: -1, count: v)
-//        // 待遍历的顶点  queue 先入先出的特性 会优先 遍历最近的顶点
-//        var queue = Queue<Int>()
-//
-//        queue.enqueue(s)
-//        while queue.count > 0 {
-//            if let w = queue.dequeue() {
-//                for index in 0..<adj[w].count { // 遍历相邻的node
-//                    if let node = adj[w].query(index: index) {
-//                        if !visited[node.value] {
-//                            prev[node.value] = w
-//                            if node.value == t {
-//                                printPath(prev: prev, s: s, t: t)
-//                            }
-//
-//                            visited[node.value] = true
-//                            queue.enqueue(node.value)
-//                        }
-//                    }
-//                }
-//            }
-//        }
-//    }
-//}
-//
-//extension Graph {
-//    mutating public func dfs(s: Int, t: Int) {
-//        var isFound = false
-//        var visited = [Bool](repeating: false, count: v)
-//        var prev = [Int](repeating: -1, count: v)
-//
-//        func recursiveDFS(w: Int, t: Int, visited: inout [Bool], prev: inout [Int]) {
-//            if isFound {
-//                return
-//            }
-//
-//            visited[w] = true
-//            if w == t {
-//                isFound = true
-//                return
-//            }
-//
-//            // 遍历相邻的node
-//            for index in 0..<adj[w].count {
-//                if let node = adj[w].query(index: index) {
-//                    if !visited[node.value] {
-//                        prev[node.value] = w
-//                        recursiveDFS(w: node.value, t: t, visited: &visited, prev: &prev)
-//                    }
-//                }
-//            }
+    
+//    public func traverseBreadthFirst(_ vertex: Vertex<T>, process: (T) -> Void) {
+//        if vertex.isVisited {
+//            return
 //        }
 //
-//        recursiveDFS(w: s, t: t, visited: &visited, prev: &prev)
-//        printPath(prev: prev, s: s, t: t)
+//        process(vertex.data)
+////        vertex.isVisited = true
+//
+//        let edges = edgesFrom(vertex)
+//        for edge in edges {
+//            queue.enqueue(edge.to)
+//        }
+//
+//        if let v = queue.dequeue() {
+//            traverseBreadthFirst(v, process: process)
+//        }
 //    }
-//}
+}

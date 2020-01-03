@@ -53,15 +53,21 @@ class ViewController: UIViewController {
         // root node
         let tree = BinaryTree.node(timesLeft, "+", timesRight)
 
-        tree.traverseInOrder { value in
-            print("== \(value)")
-        }
+//        tree.traverseInOrder { value in
+//            print("== \(value)")
+//        }
 //       tree.traversePreOrder { value in
 //           print("== \(value)")
 //       }
 //       tree.traversePostOrder { value in
 //           print("== \(value)")
 //       }
+
+//        print(tree.description)
+        
+        BinaryTreeUtil().traverseBreadthFirst(tree) { value in
+            print("== \(value)")
+        }
     }
  
     func testGraph() {

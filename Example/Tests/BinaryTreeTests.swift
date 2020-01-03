@@ -43,15 +43,17 @@ class BinaryTreeTests: XCTestCase {
         // root node
         let tree = BinaryTree.node(timesLeft, "+", timesRight)
 
-        tree.traverseInOrder { value in
-            print("== \(value)")
-        }
+        print(tree.description)
+//        tree.traverseInOrder { value in
+//            print("== \(value)")
+//        }
 //       tree.traversePreOrder { value in
 //           print("== \(value)")
 //       }
 //       tree.traversePostOrder { value in
 //           print("== \(value)")
 //       }
+        
         
     }
 
