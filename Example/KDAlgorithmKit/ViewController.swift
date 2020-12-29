@@ -23,6 +23,7 @@ class ViewController: UIViewController {
 //        SortAlgorithm.selectSort(arr: &arr)
         // d1
         // d2
+        // d2-1
 
         testBinaryTree()
 //        testGraph()
