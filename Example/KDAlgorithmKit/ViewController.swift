@@ -21,7 +21,8 @@ class ViewController: UIViewController {
 //        SortAlgorithm.bubleSort(arr: &arr)
 //        SortAlgorithm.insertSort(arr: &arr)
 //        SortAlgorithm.selectSort(arr: &arr)
-        
+        // d1
+        // d2
 
         testBinaryTree()
 //        testGraph()
