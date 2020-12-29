@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         // d2-1
         // d2-2
         // d2-3
+        // d2-4
 
         testBinaryTree()
 //        testGraph()
